@@ -1,37 +1,97 @@
-body, html {
-    height:100%
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    background: aquamarine;
 }
 body {
-    background-color: whitesmoke;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    font: size 40px; 
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 2px 4px -2px black;
 }
 
+nav {font-size: 40px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+#container {
+    min-height: 100vh;
+    background-color: teal;
+    box-shadow: 0 0 12px -2px black;
+    padding: 64px 24px 80px;
+    margin-top: 0%;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white
+}
+
+.heading-nonmargin-top {
+    margin-top: 0;
+}
+
+h1, h2 {font-family:Verdana, Geneva, Tahoma, sans-serif
+}
 h1 {
-    color:black;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 500%;
-    
+     font-size: 30px;
+     
 }
-h3 {
-    color: black;
-    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 200%;
+h2 {
+    font-size: 25px;
 }
-.topnav {
-    background-color:black;
-    overflow: hidden;
+h2 span {
+    background-color: white;
 }
-.topnav a {
-    float: right;
+
+.quote {
+    font-family:Geneva, cursive;
+    font-weight: 100;
     color: white;
+    font-size: 50px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    padding-top: 16px;
+    padding-bottom: 80px;
+    margin-top: 35px;}
+
+.about-img {
+    height: 180px;
+    width: 160px
 }
-.topnav a:hover {
-    background-color: pink;
+.about-img-1{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
-.topnav a.active {
-    background-color: pink;
-    color:black
+.about-img-2{
+    float:right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.about-img-3{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.p.solid {border-style: solid;
+}
+.portfolio-img {
+    height: 180px;
+    width: 160px;
+}
+.portfolio-img-1{float:right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.portfolio-img-2{float:left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.portfolio-img-3{float:right;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
